@@ -25,7 +25,6 @@ https://github.com/kennytilton/flutter-counter
 https://github.com/kennytilton/flutter-mx
 https://github.com/KerJen/flutter_clojuredart
 https://github.com/lambdina/ifs
-https://github.com/lambdina/weather_neumorphism_ui
 https://github.com/PEZ/clojuredart-quickstart-root-problem
 https://github.com/prestancedesign/clojuredart-recipe-app
 https://github.com/Tensegritics/ClojureDart
