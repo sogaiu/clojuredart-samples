@@ -1,17 +1,11 @@
 {:min-bb-version "0.4.0"
  :paths ["conf"
          "script"]
- :tasks {:requires ([babashka.fs :as fs]
-                    [conf :as cnf])
-         ;;
-         :enter (when (System/getenv "VERBOSE")
+ :tasks {:enter (when (System/getenv "VERBOSE")
                   (println "Entering:" (:name (current-task))))
          :leave (when (System/getenv "VERBOSE")
                   (println "Leaving:" (:name (current-task))))
-         ;; ClojureDart
-         -gen-github-clojuredart-zips-list
-         {:doc "Make GitHub ClojureDart repo zip list"
-          :task gen-github-clojuredart-zips-list/-main}
+         ;; tasks
          fetch-clojuredart-code
          {:doc "Retrieve ClojureDart code samples"
           :task fetch-clojuredart-code/-main}
