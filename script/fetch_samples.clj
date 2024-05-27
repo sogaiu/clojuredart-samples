@@ -1,4 +1,4 @@
-(ns fetch-clojuredart-code
+(ns fetch-samples
   (:require [babashka.fs :as fs]
             [babashka.tasks :as t]
             [conf :as cnf]))

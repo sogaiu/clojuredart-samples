@@ -6,7 +6,7 @@
          :leave (when (System/getenv "VERBOSE")
                   (println "Leaving:" (:name (current-task))))
          ;; tasks
-         fetch-clojuredart-code
+         fetch-samples
          {:doc "Retrieve ClojureDart code samples"
-          :task fetch-clojuredart-code/-main}
+          :task fetch-samples/-main}
          }}
